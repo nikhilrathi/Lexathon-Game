@@ -1,0 +1,40 @@
+LEXATHON (MIPS EDITION)
+=======================
+Created by John Arteaga, Matt Bachelder, Nicholas Ibarra, Jorge Quiros, and Nikhil Rathi
+
+
+About game:
+-----------
+LEXATHON (MIPS EDITION)is an adaptation of the popular Android word game Lexathon.
+The objective of the game is to find as many possible word combinations as you can given the letters you are provided with.
+
+
+How to begin game:
+------------------
+1. Ensure all files are located in the same folder.
+2. Double Click Mars4_4.jar to open the Mars.
+3. Open the 'main.asm' file.
+4. Ensure 'Initialize Program Counter to global 'main' if defined' is checked in settings.
+5. Select 'Assemble' located under the 'Run' settings.
+6. Select 'Go' located under the 'Run' settings.
+7. At the bottom left of Mars click the 'Run I/O' tab and then the expand up button.
+8. Follow the on-screen instructions.
+
+
+Instructions:
+-------------
+1. At the start of the game you will be given 60 seconds and a 3x3 grid of letters.
+2. The letter located in the center of the grid is your key letter.
+3. During the 60 seconds you must find as many word combinations as you can using the provided letters.
+4. Every word that you enter MUST contain the key letter somewhere within the word.
+5. Every word that you enter MUST be AT LEAST four letters long.
+6. For every correct word you guess, you will receive an additional 5 seconds of time.
+7. For every correct word you guess, you will receive 2 points for every letter.
+8. The game ends when the time reaches ZERO or you type '0'(zero) to GIVE UP.
+9. HAVE FUN!	
+
+
+Limitations:
+------------
+1. Mars does not currently support Linux operating system.
+2. Program terminates at end of game. For new game select 'Reset' and then 'Go.
